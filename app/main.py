@@ -1,3 +1,5 @@
+#Run this to start the stramlit app
+
 import streamlit as st
 import os
 import imageio

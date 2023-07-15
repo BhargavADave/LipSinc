@@ -1,0 +1,15 @@
+<!-- home.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Lip Reading Demo</h1>
+
+<p>Upload a video to see the predicted text</p>
+
+<form method="POST" action="/predict" enctype="multipart/form-data">
+  <input type="file" name="video">
+  <input type="submit" value="Predict">
+</form>
+
+{% endblock %}

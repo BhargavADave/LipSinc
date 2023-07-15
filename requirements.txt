@@ -6,3 +6,4 @@ imageio
 gdown
 streamlit
 pyngrok
+ altair==4.1.0

@@ -1,8 +1,8 @@
-Flask==2.2.2
-tensorflow==2.11.0
-opencv-python==4.6.0.66
-matplotlib==3.6.2
-imageio==2.22.4
-gdown==4.6.0
-streamlit==1.17.0
-pyngrok==5.2.1
+Flask
+tensorflow
+opencv-python
+matplotlib
+imageio
+gdown
+streamlit
+pyngrok

@@ -1,15 +1,25 @@
 <!-- home.html -->
+{% extends 'base.html' %} {% block content %}
 
-{% extends 'base.html' %}
+<center><h2>LipSinc</h2></center>    
+<center>
 
-{% block content %}
-<h1>Lip Reading Demo</h1>
 
-<p>Upload a video to see the predicted text</p>
+<div class="bg-white form-div">
+    <br/>
+    <h3>Lip Reading Demo</h3>
+    <p>Upload a video to see the predicted text</p>
 
-<form method="POST" action="/predict" enctype="multipart/form-data">
-  <input type="file" name="video">
-  <input type="submit" value="Predict">
-</form>
+    <form method="POST" action="/predict" enctype="multipart/form-data">
+    <input type="file" class="formip" name="video" />
+    <br/>
+    <br/>
+    <div class="d-grid gap-2">
+      <button class="btn btn-success btn-predict" type="submit">
+        Predict
+      </button>
+    </div>
+  </form>
+</div>
 
 {% endblock %}
